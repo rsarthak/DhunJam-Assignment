@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Unbounded&display=swap');
+* {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+  background-color: #030303;
+  color: white;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-weight:bold;
+  text-align: center;
+}
+.login-container {
+  width: 600px;
+  margin: 6rem auto;
+  padding: 20px;
+  border: none;
+}
+
+.login-input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: black; 
+  color: white; 
+}
+
+.password-input-container {
+  position: relative; 
+}
+
+.login-button {
+  width: 100%;
+  background-color: #6741D9;
+  margin-top: 2rem;
+  margin-bottom:10px;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 11px;
+  font-size: 1.2rem;
+}
+
+.new-registration {
+  display: block; 
+  text-align: center;
+  margin-top: 10px; 
+  color: #ffffff; 
+  text-decoration: none; 
+}
+
+.eye-icon {
+  position: absolute; 
+  right: 10px; 
+  top: 35%; 
+  transform: translateY(-50%); 
+  cursor: pointer;
+}
